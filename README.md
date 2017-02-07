@@ -19,6 +19,7 @@ You'll be needing following thigs:
  - (Linux) machine (that's always on) where you can run this script
 
 **What's cid and where do I get it?**
+
 Easiest way to obtain the *cid* is opening booking calendar of your desired sauna, right clicking on any time slot item and then choosing *inspect* from the dropdown menu. We're interested in the href attribute of the anchor item which should be something along the lines: `/reservation/new/tabId/1/resId/304/year/2017/month/01/day/09/cid/6088/date/2017-01-12/mins/1020`.
 The magic value we're after is the number combination following /cid/ which in this case is **6088**.
 
